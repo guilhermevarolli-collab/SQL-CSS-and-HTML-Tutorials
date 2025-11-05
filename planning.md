@@ -16,4 +16,9 @@ The two last itens can change, like putting the video first and then the images 
 ### Second Page
 - A big text with some images, maybe, to introduce the user (**Dimensions = 20%pxl for width and a 10%pxl height/Place = Right under the _HTML_ tittle, with the text**).  
 - Another image to divide the text, so the user don't get bored with only text at their screen (**Dimensions = 40%pxl for width and a 20%pxl height/Place = Right under the _HTML_ tittle, with the text**).
-- 
+- Some conclusion with more text and an example or tip.
+- To give it a little bit of diference from the first page style structure, maybe a text in the middle of the page between to images, not sure what could be the content of the images and the text yet to justify that diferent design, i just want to make something characteristic for this page (**Dimensions = 20%pxl for width and a 60%pxl height/Place = One on the right of the page, one on the left, and the text in the middle**).
+- After that, a little bit more of text and then summarzing all the informations with a video.(**Dimensions = 50%pxl wight and 30% height/Place = Middle center almost at the very bottom of the page**)
+- And for the last item, one little quiz to see if the user get it all the content presented in the previous tutorial.(**Can be a link or something, still figuring out how to execute properly that ideia**).
+
+
