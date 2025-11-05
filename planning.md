@@ -29,6 +29,6 @@ The two last itens can change, like putting the video first and then the images 
 - And then, the quiz to finish all.
 
 
-(**ATTENTION**) 
-  **EXTRA, NOT NEEDED FOR THE PROJECT**
+(**ATTENTION**)  
+**EXTRA, NOT NEEDED FOR THE PROJECT**
 ### Fourth page
