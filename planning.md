@@ -30,5 +30,5 @@ The two last itens can change, like putting the video first and then the images 
 
 
 (**ATTENTION**) 
-**EXTRA, NOT NEEDED FOR THE PROJECT**
+  **EXTRA, NOT NEEDED FOR THE PROJECT**
 ### Fourth page
