@@ -7,7 +7,7 @@ Some basic white and blue, nothing too fancy, something simple to make people pa
 - A big text with some image, maybe, to introduce the user (**Dimensions = 70%pxl for width and a 40%pxl height/Place = At the middle of the top**).  
 - After this introduction, some more text and images, image to the left and the text to the right (**Dimensions = 25%pxl for width and a 30%pxl for height/Place = Under the first image, at the left of the page**).
 - Complement the content with some text.
-- Following the text, there will be 3 images explaining  the 3 themes, like a apresentation for the informations that will be presented. (**Dimensions = All of them will have the same dimensions, what will change it's where they will be placed [15%pxl wight and 20%pxl height]/Place = One image at the beginning of the page, at the left, one in the middle of the page, and one at the end of the page, right**).
+- Following the text, there will be 3 images explaining  the 3 themes, like a apresentation for the informations that will be presented. (**Dimensions = All of them will have the same dimensions, what will change it's where they will be placed [15%pxl wight and 20%pxl height]/Place = One image at the beginning of the page, at the left, one in the middle of the page, and one at the end of the page, right**).  
 -And at the very end, a introduction video giving a brief of the 3 topics and summarizing all the informations already seen. (**Dimensions = 50%pxl wight and 30% height/Place = Middle center at the very bottom of the page**).  
 
 (**ATTENTION**)  
