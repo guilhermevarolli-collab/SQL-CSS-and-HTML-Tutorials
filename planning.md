@@ -1,7 +1,7 @@
 # SQL,CSS and HTML Tutorials
 ## Layout of the page
 - Palet Colour:  
-Some basic white and blue, nothing too fancy, something simple to make people pay attention on the content of the pages (**Maybe make some gradient here an there to give a little style for the pages, or even play with the colour, but always keeping it simple, make black and white, black and blue, blue and red. Something like that**).
+Some basic white and blue, nothing too fancy, something simple to make people pay attention on the content of the pages (**Maybe make some gradient here and there to give a little style for the pages, or even play with the colour, but always keeping it simple, make black and white, black and blue, blue and red. Something like that**).
 
 ### First page
 - A big text with some images, maybe, to introduce the user (**Dimensions = 70%pxl for width and a 40%pxl height/Place = At the middle of the top**).  
