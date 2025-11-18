@@ -4,7 +4,7 @@
 Some basic white and blue, nothing too fancy, something simple to make people pay attention on the content of the pages (**Maybe make some gradient here and there to give a little style for the pages, or even play with the colour, but always keeping it simple, make black and white, black and blue, blue and red. Something like that**).[3 hours]
 
 ### First page
-- A big text with some image, maybe, to introduce the user (**Dimensions = 70%pxl for width and a 40%pxl height/Place = At the middle of the top**).[30 min] 
+- A big text in a box to introduce the user (**Dimensions = 70%pxl for width and a 40%pxl height/Place = At the middle of the top**).[30 min] 
 - After this introduction, some more text and images, image to the left and the text to the right (**Dimensions = 25%pxl for width and a 30%pxl for height/Place = Under the first image, at the left of the page**).[30 min] 
 - Complement the content with some text.[10 min]
 - Following the text, there will be 3 images explaining  the 3 themes, like a apresentation for the informations that will be presented. (**Dimensions = All of them will have the same dimensions, what will change it's where they will be placed [15%pxl wight and 20%pxl height]/Place = One image at the beginning of the page, at the left, one in the middle of the page, and one at the end of the page, right**).[2 hours or more]
