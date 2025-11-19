@@ -14,7 +14,7 @@ Some basic white and blue, nothing too fancy, something simple to make people pa
 The two last itens can change, like putting the video first and then the images with the brief.
 
 ### Second Page
-- A big text with some image right in the middle of the text, maybe, to introduce the user (**Dimensions = 20%pxl for width and a 10%pxl height/Place = Right under the _HTML_ tittle, with the text**).[30 min] 
+- A big text, to introduce the user (**Dimensions = 20%pxl for width and a 10%pxl height/Place = Right under the _HTML_ tittle, with the text**).[30 min] 
 - Another image to divide the text, so the user don't get bored with only text at their screen (**Dimensions = 40%pxl for width and a 20%pxl height/Place = Right under the _HTML_ tittle, after the text**).[10 min]
 - Some conclusion with more text and an example or tip.10[min]
 - To give it a little bit of diference from the first page style structure, maybe a text in the middle of the page between to images, not sure what could be the content of the images and the text yet to justify that diferent design, i just want to make something characteristic for this page (**Dimensions = 20%pxl for width and a 60%pxl height/Place = One on the right of the page, one on the left, and the text in the middle**).[2 hours]
