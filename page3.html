@@ -11,6 +11,9 @@
        <h1>Welcome to CSS</h1>
    </header>
    <main>
+
+      <img scr = "" alt = "A visual example showing the dramatic difference between a simple, unstyled HTML page and the same page after a complex CSS">
+      
        <p>CSS: Bringing the Web to Life
           
           If HTML provides the structure, CSS (Cascading Style Sheets) provides the beauty, organization, and visual flair. 
@@ -20,7 +23,46 @@
           This separation is key to efficient web development, allowing you to update the entire look and feel of a website simply by modifying a few lines of CSS code, without touching the underlying HTML structure.
        </p>
 
-       <p></p>
+       <p>Understanding the Cascade and Selectors
+          
+          The "C" in CSS stands for Cascading, which defines how styles are prioritized when conflicts occur. 
+          Styles can come from multiple sources (browser default, user, and your own stylesheet). 
+          The cascade uses a specific set of rules (Specificity, Importance, and Source Order) to determine which style declaration ultimately wins.
+          
+          The core of writing CSS is the use of selectors. These are patterns used to select the elements you want to style. 
+          The most common selectors are:
+         
+          Element Selector: p { color: blue; } (Selects all paragraph tags)
+          
+          Class Selector: .btn-primary { background: green; } (Selects elements with the class attribute btn-primary)
+          
+          ID Selector: #main-header { font-size: 24px; } (Selects the single element with the ID main-header)
+       </p>
+
+      <img scr = "" alt = "A diagram illustrating the CSS Box Model (Content, Padding, Border, Margin) with labeled arrows.">
+
+      <p>Layouts: The Box Model
+         
+         Every element rendered by a browser, whether it's a paragraph or an image, is treated as a rectangular Box. 
+         Understanding the CSS Box Model is essential for controlling layout. 
+         The model consists of four layers, from the inside out:
+        
+         Content: The actual text or image.
+         
+         Padding: The space between the content and the border.
+         
+         Border: The line that surrounds the padding and content.
+         
+         Margin: The clear space outside the border, separating the element from other elements.
+         
+         Manipulating these four properties allows you to precisely control the spacing, size, and relationship between all elements on your page, enabling complex layouts using techniques like Flexbox and Grid.
+      </p>
+
+      <p>CSS is a vast and continuously evolving language. 
+         While initially simple to grasp, it offers deep control over interactivity through transitions, animations, and responsive design features like media queries. 
+         By separating concerns, you create code that is easier to maintain, faster to load, and adaptable to any screen size—from mobile phones to large desktop monitors. 
+         This brief video summarizes the essential functions of CSS and its role as the artist of the web.
+      </p>
    </main>
    <footer>
        <p>© 2025 SQL, CSS, and HTMLTutorials</p>
