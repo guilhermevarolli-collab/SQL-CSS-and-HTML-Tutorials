@@ -1,274 +1,327 @@
 <!DOCTYPE html>
+<!-- saved from url=(0072)https://deweydex.github.io/WADB_Tutorials/templates/website-starter.html -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Template</title>
+    <title>Website Starter Template</title>
+    
     <style>
         /* 
             ========================================
             CSS RESET AND BASE STYLES
             ========================================
+            
+            These styles set up consistent defaults across different browsers.
+            Every browser has its own default styles, so resetting them ensures
+            your page looks consistent no matter which browser visitors use.
         */
+        
+        /* Universal Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            /* Ensures padding/borders included in width */
         }
+        /* 
+            EXPLANATION:
+            - margin: 0 and padding: 0 remove default spacing
+            - box-sizing: border-box makes width calculations include padding and borders
+            - This makes layout calculations much easier and more predictable
+            
+            EXAMPLE:
+            Without border-box: width: 100px + padding: 20px = 120px total width
+            With border-box: width: 100px includes the padding, so total = 100px
+        */
         
+        /* Base Body Styles */
         body {
-            font-family: Georgia, 'Times New Roman', serif;
+            font-family: Arial, Helvetica, sans-serif;
             /* 
-                SERIF FONTS:
-                Serif fonts (with decorative strokes) are traditional for blogs.
-                They're considered more readable for long-form text.
-                Alternatives: 'Merriweather', 'Lora', or sans-serif fonts like Arial
+                FONT STACKS:
+                This is a "font stack" - the browser tries each font in order:
+                1. Arial (if available)
+                2. Helvetica (if Arial isn't available)
+                3. Any sans-serif font (fallback)
+                
+                You can customize this! Examples:
+                - font-family: 'Georgia', 'Times New Roman', serif; (serif fonts)
+                - font-family: 'Courier New', monospace; (monospace for code)
             */
             
-            line-height: 1.8;
+            line-height: 1.6;
             /* 
-                GENEROUS LINE HEIGHT:
-                1.8 is higher than normal (usually 1.5-1.6) for better readability
-                in long blog posts. Makes dense text easier to read.
+                LINE HEIGHT:
+                1.6 means 1.6 times the font size, creating comfortable spacing.
+                Good line height improves readability. Common values:
+                - 1.4-1.6 for body text (readable)
+                - 1.2-1.4 for headings (tighter)
+                - 1.8+ for accessibility (easier to read)
             */
             
             color: #333;
-            background-color: #f5f5f5;
-            /* Light gray background for subtle contrast */
+            /* 
+                TEXT COLOR:
+                #333 is a dark gray - provides good contrast on white backgrounds.
+                Other good options:
+                - #000 (black) - maximum contrast
+                - #222 (very dark gray) - softer than black
+                - #444 (medium gray) - lighter option
+            */
         }
         
         /* 
             ========================================
-            HEADER - BLOG TITLE AND TAGLINE
+            HEADER STYLES
             ========================================
+            
+            The header typically contains site branding (title, logo) and
+            sometimes navigation. It's usually at the top of every page.
         */
         header {
-            background-color: #2c3e50;
-            /* Dark blue-gray - professional and readable */
+            background-color: #2563eb;
+            /* 
+                BACKGROUND COLOR:
+                #2563eb is a blue color. You can change this to:
+                - Any hex color: #ff5733 (orange), #28a745 (green), etc.
+                - Named colors: blue, green, purple, etc.
+                - rgb/rgba: rgb(37, 99, 235) or rgba(37, 99, 235, 0.9)
+                
+                TIP: Use a color picker tool or browser DevTools to find colors you like!
+            */
             
             color: white;
+            /* Text color - white works well on dark backgrounds */
+            
             padding: 2rem 0;
+            /* 
+                PADDING:
+                2rem = 2 times the base font size (usually 32px)
+                The "0" means no left/right padding
+                You can adjust: 1rem (small), 3rem (large), etc.
+            */
+            
             text-align: center;
+            /* Centers all text inside the header */
         }
         
         header h1 {
             margin-bottom: 0.5rem;
-        }
-        
-        header p {
-            opacity: 0.9;
-            /* Slightly transparent for subtle effect */
+            /* Adds small space below the heading */
         }
         
         /* 
             ========================================
-            NAVIGATION - BLOG CATEGORIES/PAGES
+            NAVIGATION STYLES
             ========================================
+            
+            Navigation should be easy to use and clearly visible.
+            Good navigation helps users find what they're looking for.
         */
         nav {
-            background-color: #34495e;
-            /* Slightly lighter than header for distinction */
+            background-color: #1e40af;
+            /* Slightly darker blue than header for visual distinction */
             
             padding: 1rem 0;
+            /* Vertical padding for the navigation bar */
         }
         
         nav ul {
             list-style: none;
+            /* Removes default bullet points from list */
+            
             display: flex;
+            /* 
+                FLEXBOX:
+                Makes the list items arrange horizontally (in a row).
+                Without flexbox, list items stack vertically.
+            */
+            
             justify-content: center;
+            /* Centers the navigation items */
+            
             gap: 2rem;
+            /* 
+                GAP:
+                Creates consistent spacing between navigation items.
+                Much easier than using margins! Only works with flexbox/grid.
+            */
         }
         
         nav a {
             color: white;
             text-decoration: none;
+            /* Removes the default underline from links */
+            
             padding: 0.5rem 1rem;
+            /* 
+                CLICKABLE AREA:
+                Padding creates a larger clickable area around each link.
+                This is especially important for mobile devices - bigger
+                targets are easier to tap!
+            */
         }
         
         nav a:hover {
             background-color: rgba(255, 255, 255, 0.1);
-            /* Subtle highlight on hover */
-        }
-        
-        /* 
-            ========================================
-            MAIN LAYOUT - TWO COLUMN GRID
-            ========================================
-            
-            This creates a classic blog layout:
-            - Main content area (larger, left side)
-            - Sidebar (smaller, right side)
-        */
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            
-            display: grid;
-            /* CSS Grid for the two-column layout */
-            
-            grid-template-columns: 2fr 1fr;
             /* 
-                COLUMN PROPORTIONS:
-                - 2fr = main content takes 2 parts
-                - 1fr = sidebar takes 1 part
-                - Total: 3 parts, so main is 2/3, sidebar is 1/3
+                HOVER EFFECT:
+                When users move their mouse over a link, it gets a
+                semi-transparent white background. This provides visual
+                feedback that the link is interactive.
                 
-                You can adjust:
-                - grid-template-columns: 3fr 1fr; (sidebar smaller)
-                - grid-template-columns: 1fr 1fr; (equal columns)
+                rgba(255, 255, 255, 0.1) means:
+                - Red: 255, Green: 255, Blue: 255 (white)
+                - Alpha: 0.1 (10% opacity - mostly transparent)
             */
-            
-            gap: 2rem;
-            /* Space between main content and sidebar */
         }
         
         /* 
             ========================================
-            MAIN CONTENT - BLOG POSTS
+            MAIN CONTENT AREA
             ========================================
             
-            This is where your blog posts/articles appear.
-            White background makes content stand out.
+            The main element contains the primary content of the page.
+            This is where your actual content (articles, sections, etc.) goes.
         */
         main {
-            background-color: white;
-            /* White card on gray background */
+            max-width: 1200px;
+            /* 
+                MAXIMUM WIDTH:
+                Prevents content from becoming too wide on large screens.
+                Research shows lines that are too long are harder to read.
+                Common max-width values:
+                - 800px-900px for articles (optimal reading width)
+                - 1200px for general content (what we're using)
+                - 1400px+ for wide layouts (not recommended for text)
+            */
+            
+            margin: 0 auto;
+            /* 
+                CENTERING:
+                margin: 0 auto is a common CSS trick to center elements:
+                - 0 = no top/bottom margin
+                - auto = equal left/right margins (centers it!)
+                
+                This only works when the element has a defined width (or max-width).
+            */
             
             padding: 2rem;
-            border-radius: 8px;
-            /* Rounded corners */
+            /* Adds space inside the main container */
+        }
+        
+        /* Section Spacing */
+        section {
+            margin: 2rem 0;
+            /* 
+                SPACING BETWEEN SECTIONS:
+                Creates consistent vertical spacing. The format is:
+                margin: [top/bottom] [left/right]
+                
+                You could also write:
+                - margin-top: 2rem; margin-bottom: 2rem;
+                - margin: 3rem 0; (more space)
+                - margin: 1rem 0; (less space)
+            */
+        }
+        
+        /* Section Headings */
+        h2 {
+            color: #2563eb;
+            /* Matches the header color for consistency */
             
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            /* Subtle shadow for depth */
-        }
-        
-        /* Individual Blog Post/Article */
-        article {
-            margin-bottom: 3rem;
-            /* Space between articles */
-            
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #eee;
-            /* Separates each post */
-        }
-        
-        article:last-child {
-            border-bottom: none;
-            /* No border after last post */
-        }
-        
-        article h2 {
-            color: #2c3e50;
-            /* Matches header color */
             margin-bottom: 1rem;
+            /* Space below the heading before content starts */
         }
         
-        .post-meta {
-            color: #7f8c8d;
-            /* Muted gray for date/author info */
-            font-size: 0.9rem;
-            /* Slightly smaller text */
+        /* Paragraphs */
+        p {
             margin-bottom: 1rem;
-        }
-        
-        article p {
-            margin-bottom: 1rem;
-            /* Space between paragraphs */
-        }
-        
-        /* Read More Link */
-        .read-more {
-            color: #3498db;
-            /* Blue link color */
-            text-decoration: none;
-        }
-        
-        .read-more:hover {
-            text-decoration: underline;
-            /* Underline on hover */
+            /* 
+                PARAGRAPH SPACING:
+                Creates space between paragraphs. Without this, paragraphs
+                would run together and be harder to read.
+                
+                TIP: You can adjust this value based on your design:
+                - 1.5rem for more space
+                - 0.5rem for tighter spacing
+                - Or remove margin-bottom and use line-height instead
+            */
         }
         
         /* 
             ========================================
-            SIDEBAR - ADDITIONAL CONTENT
+            FOOTER STYLES
             ========================================
             
-            Sidebar typically contains:
-            - Categories
-            - Recent posts
-            - About section
+            The footer typically appears at the bottom of every page and contains:
+            - Copyright information
+            - Contact details
+            - Additional navigation links
             - Social media links
-            - Search bar
-        */
-        aside {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            /* Matches main content styling */
-            
-            height: fit-content;
-            /* Only takes as much height as needed */
-        }
-        
-        aside h3 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #3498db;
-            /* Blue underline for sidebar headings */
-        }
-        
-        aside ul {
-            list-style: none;
-            /* Remove bullet points */
-        }
-        
-        aside li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #eee;
-            /* Separates list items */
-        }
-        
-        aside a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        
-        aside a:hover {
-            text-decoration: underline;
-        }
-        
-        .sidebar-section {
-            margin-bottom: 2rem;
-            /* Space between sidebar sections */
-        }
-        
-        /* 
-            ========================================
-            FOOTER - SITE INFORMATION
-            ========================================
         */
         footer {
-            background-color: #2c3e50;
-            /* Matches header */
+            background-color: #1f2937;
+            /* Dark gray/charcoal color for contrast */
+            
             color: white;
+            /* White text on dark background */
+            
             text-align: center;
-            padding: 2rem;
-            margin-top: 2rem;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            /* Pushes footer away from main content */
         }
         
-        /* Responsive Design */
+        /* 
+            ========================================
+            RESPONSIVE DESIGN (MOBILE-FIRST)
+            ========================================
+            
+            Media queries let you change styles based on screen size.
+            This is essential for making your site work on phones and tablets!
+        */
         @media (max-width: 768px) {
-            .container {
-                grid-template-columns: 1fr;
-            }
+            /* 
+                WHEN DO THESE STYLES APPLY?
+                When the screen width is 768 pixels or less (typically phones/tablets).
+                
+                Common breakpoints:
+                - 768px (tablets in portrait)
+                - 480px (small phones)
+                - 1024px (tablets in landscape)
+                
+                You can test this by resizing your browser window!
+            */
             
             nav ul {
                 flex-direction: column;
+                /* 
+                    VERTICAL NAVIGATION:
+                    Changes navigation from horizontal (row) to vertical (column).
+                    Stacking links vertically makes them easier to tap on mobile.
+                */
+                
                 gap: 0.5rem;
+                /* Smaller gap between links on mobile */
             }
+            
+            main {
+                padding: 1rem;
+                /* 
+                    LESS PADDING ON MOBILE:
+                    Reduces padding on small screens to maximize content space.
+                    Mobile screens are small, so every pixel counts!
+                */
+            }
+            
+            /* 
+                EXPERIMENT IDEAS:
+                - Make header padding smaller on mobile
+                - Adjust font sizes for better mobile readability
+                - Change colors for better mobile viewing
+                - Add or remove margins for mobile layout
+            */
         }
     </style>
