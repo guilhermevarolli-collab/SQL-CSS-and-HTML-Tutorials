@@ -184,6 +184,28 @@
             This is where your actual content (articles, sections, etc.) goes.
         */
         main {
+
+        .html-section {
+            display: flex;
+            align-items: center;      
+            justify-content: center;  
+            gap: 30px;                
+            margin: 40px 0;           
+        }
+
+        .side-img {
+            width: 500px;
+            height: 500px;
+            object-fit: contain;      
+        }
+
+        .center-text {
+            max-width: 400px;         
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
             max-width: 1200px;
             /* 
                 MAXIMUM WIDTH:
