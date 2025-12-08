@@ -39,27 +39,39 @@
          Mastering the syntax of these four commands is the first and most critical step in becoming proficient with SQL.
       </p>
 
+      
+
+      <h3>The Power of the SELECT Command</h3>
+      <p>
+          The **<code>SELECT</code>** command is the main tool for getting data out of a database. 
+         You use it to pick specific columns (e.g., <code>SELECT name, email</code>) and then use the **<code>WHERE</code>** clause to filter the rows (e.g., <code>WHERE age > 30</code>). 
+         The **<code>ORDER BY</code>** clause lets you sort the results (e.g., <code>ORDER BY name ASC</code>).
+      </p>#
+      
       <img src="image folder/sql page image 2.png"
       alt="A graphic illustrating the concept of a JOIN operation"
       style="width:500px;height:600px; float:left; margin-right:20px;">
 
       
-      <h3>The Power of the SELECT Statement</h3>
-      <p>The SELECT command is the cornerstone of data retrieval. Its complexity comes from its ability to filter, sort, and
-         combine data from multiple tables. For instance, the WHERE clause allows you to filter rows based on specific
-         conditions, and the ORDER BY clause lets you sort the final result.
-
-         Even more powerful is the use of JOINs. Since relational databases split data across multiple tables (e.g.,
-         separating user names from their orders to ensure data integrity), JOINs are necessary to temporarily link these
-         tables together. The INNER JOIN is the most common, returning only the rows that have matching values in both tables.
+      <h3>Linking Data with JOINs</h3>
+      <p>
+          Databases store related data in separate tables to keep things organized. 
+         **<code>JOIN</code>s** are essential for temporarily linking these tables together. 
+         The most common type is the **<code>INNER JOIN</code>**, which only shows rows that have a match in both tables (e.g., showing only customers who actually placed an order). 
       </p>
 
-      <p>SQL's importance extends beyond simple websites; it is the backbone of almost all large-scale applications, business
-         intelligence tools, and data analytics systems. While variations of SQL exist (such as T-SQL for Microsoft or PL/SQL
-         for Oracle), the core syntax and relational concepts remain universally applicable. A strong grasp of SQL is a
-         guaranteed asset in any technology-focused career.
+      <h3>Summarizing Data</h3>
+      <p>
+         SQL is powerful for summarizing data. 
+         **Aggregate functions** like <code>SUM()</code>, <code>AVG()</code>, and <code>COUNT()</code> perform math on your data. 
+         You use the **<code>GROUP BY</code>** clause to run these calculations for specific categories (e.g., grouping sales by region to find the average sale amount per region).
       </p>
 
+      <h3>SQL's Role</h3>
+      <p>
+         SQL is not just for small websites; it is the **universal language** for almost all large applications, including banking, e-commerce, and data analysis systems. 
+         Mastering SQL provides a foundational skill that is essential across nearly every technology and data career.
+      </p>
 
       <video width="1200" height="500" controls>
   <source src = "video folder/video 3.mp4" type = "video/mp4">
