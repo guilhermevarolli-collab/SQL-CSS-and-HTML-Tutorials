@@ -92,7 +92,7 @@
             color: white;
             /* Text color - white works well on dark backgrounds */
             
-            padding: 3rem 0;
+            padding: 2rem 0;
             /* 
                 PADDING:
                 2rem = 2 times the base font size (usually 32px)
@@ -183,7 +183,7 @@
             The main element contains the primary content of the page.
             This is where your actual content (articles, sections, etc.) goes.
         */
-       main {
+        main {
             max-width: 1200px;
             /* 
                 MAXIMUM WIDTH:
@@ -208,7 +208,6 @@
             padding: 2rem;
             /* Adds space inside the main container */
         }
-        
         
         /* Section Spacing */
         section {
@@ -324,4 +323,4 @@
             */
         }
     </style>
-</head
+</head>
