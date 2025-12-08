@@ -183,8 +183,8 @@
             The main element contains the primary content of the page.
             This is where your actual content (articles, sections, etc.) goes.
         */
-        main {
-
+       main {
+            max-width: 1200px;
             /* 
                 MAXIMUM WIDTH:
                 Prevents content from becoming too wide on large screens.
@@ -207,8 +207,8 @@
             
             padding: 2rem;
             /* Adds space inside the main container */
-
         }
+        
         
         /* Section Spacing */
         section {
