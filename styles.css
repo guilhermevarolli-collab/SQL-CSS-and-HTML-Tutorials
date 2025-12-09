@@ -32,7 +32,7 @@
 
 /* Class selector exemplo adicional */
 .highlight {
-    background-color: #fef3c7; /* leve destaque amarelo */
+    background-color: #fef3c7; 
     font-weight: bold;
     padding: 0.3rem 0.5rem;
     border-radius: 5px;
@@ -53,10 +53,10 @@ section p {
    TEXT AND FONT PROPERTIES
    ============================== */
 body {
-    font-family: Arial, Helvetica, sans-serif; /* já existente */
-    font-size: 16px; /* unidade adequada */
-    line-height: 1.6; /* já existente */
-    color: #333; /* já existente */
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #333; 
 }
 
 h1, h2, h3 {
@@ -96,20 +96,20 @@ a:active {
    COLORS AND BACKGROUNDS
    ============================== */
 body {
-    background-color: #ffffff; /* branco padrão */
+    background-color: #ffffff; 
 }
 
 header {
-    background-color: #2563eb; /* azul já existente */
+    background-color: #2563eb; 
     color: #ffffff;
 }
 
 nav {
-    background-color: #1e40af; /* azul mais escuro */
+    background-color: #1e40af; 
 }
 
 footer {
-    background-color: #1f2937; /* cinza escuro */
+    background-color: #1f2937; 
     color: #ffffff;
 }
 
