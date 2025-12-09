@@ -6,31 +6,25 @@
     <title>Website Starter Template</title>
     
     <style>
-         .html-section {
-            display: flex;
-            align-items: center;  
-            justify-content: center;
-            gap: 40px;          
-            margin: 60px 0;
-        }
+.html-section {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+     gap: 40px;          
+    margin: 60px 0;
+}
 
-        .side-img {
-            width: 350px;
-            height: auto;
-        }
+.side-img {
+    width: 350px;
+    height: auto;
+}
 
-        .center-text {
-            max-width: 400px;
-            text-align: justify;
-            font-size: 18px;
-            line-height: 1.7;
-       /* ==============================
-   ELEMENT, CLASS, AND ID SELECTORS
-   ============================== */
-
-/* Element selectors já existentes: p, h1, nav, header, section, footer */
-
-/* Class selector exemplo adicional */
+.center-text {
+    max-width: 400px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.7;
+      
 .highlight {
     background-color: #fef3c7; 
     font-weight: bold;
@@ -38,20 +32,18 @@
     border-radius: 5px;
 }
 
-/* ID selector exemplo */
+
 #main-nav {
     font-weight: 600;
 }
 
-/* Combination selector */
+
 section p {
     line-height: 1.8;
     margin-bottom: 1rem;
 }
 
-/* ==============================
-   TEXT AND FONT PROPERTIES
-   ============================== */
+
 body {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 16px; 
@@ -92,9 +84,7 @@ a:active {
     color: #9333ea;
 }
 
-/* ==============================
-   COLORS AND BACKGROUNDS
-   ============================== */
+
 body {
     background-color: #ffffff; 
 }
@@ -113,27 +103,20 @@ footer {
     color: #ffffff;
 }
 
-/* Example background image for sections (optional) */
-section.bg-pattern {
+
     background-image: url('image folder/pattern.png');
     background-repeat: repeat;
     padding: 2rem;
 }
 
-/* ==============================
-   LAYOUT PROPERTIES
-   ============================== */
 
-/* Display properties já existentes (flex, block, inline-block) */
-
-/* Margin and padding exemplos adicionais */
 .container {
     margin: 2rem auto;
     padding: 1rem 2rem;
     max-width: 1200px;
 }
 
-/* Border properties */
+
 .box {
     border: 2px solid #2563eb;
     border-radius: 8px;
@@ -141,9 +124,7 @@ section.bg-pattern {
     margin-bottom: 1rem;
 }
 
-/* ==============================
-   RESPONSIVENESS
-   ============================== */
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
