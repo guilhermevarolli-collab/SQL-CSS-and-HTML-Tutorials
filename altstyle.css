@@ -18,7 +18,8 @@ header {
 
 header h1 {
             margin-bottom: 0.5rem;
-      nav {
+}
+nav {
             background-color: #1e40af;
             padding: 1rem 0;
 }
@@ -67,7 +68,8 @@ footer {
             margin-top: 3rem;
 }
 
-@media (max-width: 768px) 
+@media (max-width: 768px) {
+}
 
 nav ul {
                 flex-direction: column;
