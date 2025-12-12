@@ -146,7 +146,7 @@ Most of the imagens, videos and quizes were not created by myself, down here are
 - https://www.youtube.com/watch?v=kbKty5ZVKMY (Adam Finer - Learn BI Online = Placed at the end of the SQL page)
 
 ### Tutorials:
-- All tutorials are from w3schools, here are the links:
+- All tutorials are from w3schools, here are the links:  
 https://www.w3schools.com/sql/sql_quiz.asp  
 https://www.w3schools.com/css/css_quiz.asp  
 https://www.w3schools.com/html/html_quiz.asp  
