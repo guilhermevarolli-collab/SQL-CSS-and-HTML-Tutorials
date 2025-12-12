@@ -28,7 +28,7 @@ body {
    ========================================================= */
 
 header {
-  background-color: #2563eb; /* azul padrão */
+  background-color: #2563eb;
   color: white;
   padding: 1.5rem 1rem;
   text-align: center;
@@ -42,7 +42,7 @@ header h1 {
 
 
 /* =========================================================
-   NAVEGAÇÃO (CORRIGIDA — MODELO ORIGINAL)
+   NAVEGAÇÃO (MODELO ORIGINAL)
    ========================================================= */
 
 nav {
@@ -75,7 +75,7 @@ nav a {
   transition: background-color 150ms ease, color 150ms ease;
 }
 
-/* Pseudo-classes exigidas */
+/* Pseudo classes */
 nav a:link {
   color: #ffffff;
 }
@@ -210,7 +210,7 @@ a:hover {
 
 
 /* =========================================================
-   CLASSES E IDs DE EXEMPLO (EXIGÊNCIAS)
+   CLASSES E IDs EXEMPLO
    ========================================================= */
 
 .highlight {
@@ -234,7 +234,7 @@ a:hover {
 
 
 /* =========================================================
-   IMAGENS & VÍDEOS
+   MÍDIA
    ========================================================= */
 
 img, video {
@@ -252,10 +252,34 @@ footer {
   color: #d1d5db;
   text-align: center;
   padding: 1.5rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
   margin-top: 3rem;
+}
+
+
+/* =========================================================
+   ALINHAMENTO DAS IMAGENS + TEXTO (SEM FLEXBOX)
+   ========================================================= */
+
+.html-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.html-section img,
+.html-section p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+.side-img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.center-text {
+    width: 350px;
+    text-align: justify;
 }
 
 
@@ -276,5 +300,15 @@ footer {
   section {
     padding: 1.2rem;
   }
-}
 
+  /* comportamento no celular */
+  .html-section img,
+  .html-section p {
+      display: block;
+      margin: 1rem auto;
+  }
+
+  .center-text {
+      width: 100%;
+  }
+}
