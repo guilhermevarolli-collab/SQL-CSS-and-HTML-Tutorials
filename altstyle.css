@@ -66,12 +66,12 @@ a:visited {
 
 a:hover {
     background-color: rgba(255, 255, 255, 0.1); 
-    color: #2563eb;
+    color: #1f2937;
     text-decoration: underline;
 }
 
 a:active {
-    color: white;
+    color: #9333ea;
 }
 
 
