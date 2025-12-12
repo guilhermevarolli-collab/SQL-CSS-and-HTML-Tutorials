@@ -1,4 +1,4 @@
-# HTML, CSS & SQL Personal Website
+# HTML, CSS & SQL Website
 
 ## Overview
 
