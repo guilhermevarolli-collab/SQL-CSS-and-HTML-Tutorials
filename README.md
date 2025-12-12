@@ -67,6 +67,7 @@ During the project, I practiced and reinforced:
 - Comparative images for better understanding
 - Organized explanatory sections
 - Visual and textual examples
+- Video explanation from profissionals
 - Navigation links to other pages
 
 ### HTML Page
@@ -75,7 +76,7 @@ During the project, I practiced and reinforced:
 - Document structure explanation
 - Real-life examples of HTML tags
 - Table of elements
-- Images and highlighted content blocks
+- Video explanation from profissionals
 
 ### CSS Page
 
@@ -83,7 +84,6 @@ During the project, I practiced and reinforced:
 - Before-and-after visual examples
 - Explanation of selectors, classes, and IDs
 - Demonstration of applied styles
-- List of modern CSS advantages
 
 ### Form Page
 
