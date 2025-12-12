@@ -31,7 +31,7 @@ This website serves as a small educational portfolio, highlighting:
 Before starting the implementation, the project went through a detailed planning phase:
 
 1. **Wireframes & Layout Sketches**  
-   Created rough sketches of the main page, HTML page, CSS page, and form to plan structure and content flow.
+   Created rough sketches of the main page, HTML page, CSS page, and SQL page. It's all documanted in the "planning.md" file explaning the plan, structure and content used to build this website.
 
 2. **Content Organization**  
    Decided which HTML elements to use for headings, paragraphs, lists, tables, and forms.
