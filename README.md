@@ -63,9 +63,8 @@ During the project, I practiced:
 
 ### Home Page
 
-- Introductory text explaining HTML & CSS
-- Comparative images for better understanding
-- Organized explanatory sections
+- Introductory text explaining HTML, CSS & SQL
+- Several images for better understanding
 - Visual and textual examples
 - Video explanation from profissionals
 - Navigation links to other pages
@@ -76,32 +75,27 @@ During the project, I practiced:
 - Document structure explanation
 - Real-life examples of HTML tags
 - Table of elements
-- Video explanation from profissionals
+- Several images for better understanding
+- Video explanation from profissionals in the area
+- Form
+- Quiz to test everythin teached on the tutorial
 
 ### CSS Page
 
 - Purpose and importance of CSS
 - Before-and-after visual examples
-- Explanation of selectors, classes, and IDs
+- Several images for better understanding
+- Explanation of cascade, selectors and box model
 - Demonstration of applied styles
+- Video explanation from profissionals in the area
 
-### Form Page
+### SQL Page 
 
-- Simple educational form
-- Text input fields
-- Comment box
-- Styled submit button
-- Clean and accessible structure
-
----
-
-## Special Features
-
-- Styled links with pseudo-classes (`:hover`, `:active`)
-- Buttons with hover effects
-- Dynamically adjusted images
-- Responsive layout for mobile and desktop
-- Functional navigation between pages
+- Purpose of SQL
+- Several images for better understanding
+- Example os the "four fundamental commands" 
+- Joins and the reason why SQL is so important
+- Video explanation from profissionals in the area
 
 ---
 
@@ -121,8 +115,8 @@ During the project, I practiced:
 
 ##  Technologies Used
 
-- **HTML5**  
-- **CSS3**  
+- **HTML**  
+- **CSS**  
 - Pseudo-classes and advanced selectors  
 - Responsive design with media queries  
 - Inline-block and Flexbox (when needed)
@@ -131,8 +125,31 @@ During the project, I practiced:
 
 ## Credits & References
 
-- Reference images and icons  
-- Educational websites and tutorials  
-- Books, articles, and documentation consulted  
-- Any external media used  
+Most of the imagens and videos are not created by myself, down here are every single thing that are in the website that I do not created:
+
+### TEXT:
+- https://en.wikipedia.org/wiki/HTML (Wikipedia = all text used in the HTML page)
+- https://en.wikipedia.org/wiki/CSS (Wikipedia = all text used in the CSS page)
+- https://en.wikipedia.org/wiki/SQL (Wikipedia = all text used in the SQL page)
+
+### Images:
+- https://www.tutorialspoint.com/css/css_boxmodel.htm (Tutorialspoint = second image in the CSS page)
+- https://css-tricks.com/that-time-i-tried-browsing-the-web-without-css/ (Css-tricks = First image in the CSS page and sexond image in the HTML page)
+- https://medium.com/@sumitkum001/mastering-sql-joining-tables-and-retrieving-data-3a92eb1b4dfa (Medium = Second image in the SQL page)
+- All the images in the first page were created by me.
+- The rest of images were all in the Pixabay website, Link = https://pixabay.com/
+
+### Videos:
+- https://www.youtube.com/watch?v=gT0Lh1eYk78 (Danielle Thé = Placed at the end of the introduction page)
+- https://www.youtube.com/watch?v=salY_Sm6mv4 (Aaron Jack = Placed at the end of the HTML page)
+- https://www.youtube.com/watch?v=yfoY53QXEnI (Traversy Media = Placed at the end of the CSS page)
+- https://www.youtube.com/watch?v=kbKty5ZVKMY (Adam Finer - Learn BI Online = Placed at the end of the SQL page)
+
+### Tutorials:
+- All tutorials are from w3schools, here are the links:
+https://www.w3schools.com/sql/sql_quiz.asp
+https://www.w3schools.com/css/css_quiz.asp
+https://www.w3schools.com/html/html_quiz.asp
+
+
 
