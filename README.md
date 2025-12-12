@@ -36,15 +36,9 @@ Before starting the implementation, the project went through a detailed planning
 2. **Content Organization**  
    Decided which HTML elements to use for headings, paragraphs, lists, tables, and forms.
 
-3. **HTML/CSS Evolution Discussion**  
-   - **HTML** has evolved from simple text markup to a semantic and structured language.  
-   - **CSS** has grown from basic inline styles to modern layouts using **Flexbox**, **Grid**, and **media queries** for responsiveness.  
-
-
-5. **Design Considerations**  
+3. **Design Considerations**  
    - Color scheme and typography consistency  
    - Visual hierarchy of headings and sections  
-   - Responsive layout planning for mobile and desktop  
    - Interactive elements like hover effects and links
 
 ---
