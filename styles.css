@@ -175,11 +175,6 @@ input[type="submit"]:hover {
   background-color: #1d4ed8;
 }
 
-
-input[type="submit"] {
-    order: 99; 
-}
-
 a {
   color: #2563eb;
 }
