@@ -45,7 +45,7 @@ Before starting the implementation, the project went through a detailed planning
 
 ## What I Learned
 
-During the project, I practiced and reinforced:
+During the project, I practiced:
 
 - Layout planning before coding
 - Semantic HTML structuring
