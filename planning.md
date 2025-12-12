@@ -31,11 +31,19 @@ The two last itens can change, like putting the video first and then the images 
 
 
 ### Fourth page
-(**ATTENTION**)  
-**EXTRA, NOT NEEDED FOR THE PROJECT**
 
 - Start with some introductory text, followed by an image to ilustrate everthing said on the text (**Dimensions = 20%pxl for width and a 10%pxl height/Place = Right before the _SQL_ tittle, after the text**).[30 min]
 - Some more text to complement.[10 min]
 - A image side by side with an image after, to complement the information prensented before (**Dimensions = 30%pxl wight and 60% height/Place = The image will be on the right and the text on the left of the page**).[30 min]
 - Some more text to finish the topic.[10 min]
 - After that, the video and the quiz to finish all the website and summarize the _SQL_ topic (**Dimensions = 60%pxl wight and 40% height/Place = Middle center almost at the very bottom of the page**).[30 min]
+
+
+### **Tag Explanations** (4+ examples):  
+   - `<header>`: Defines the introductory content or navigational links.  
+   - `<nav>`: Contains the main site navigation links.  
+   - `<section>`: Groups related content logically.  
+   - `<table>`: Organizes tabular data clearly.  
+   - `<form>`: Collects user input.  
+   - `<article>`: Represents a self-contained piece of content.
+
