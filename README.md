@@ -4,7 +4,7 @@
 
 This project is a personal website built entirely with **HTML** and **CSS**, featuring explanations, practical examples, and visual demonstrations of the three foundational pillars very important to IT and web development.
 
-The primary goal is to showcase my practical knowledge and demonstrate proficiency in:
+The primary goal is to showcase practical knowledge and demonstrate in:
 
 - Semantic structure
 - Navigation
