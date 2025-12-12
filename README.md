@@ -22,8 +22,7 @@ This website serves as a small educational portfolio, highlighting:
 - Correct usage of **classes**, **IDs**, and **pseudo-classes**
 - Clean visual organization
 - Beginner-friendly explanatory content
-
-It also served as a practice in **planning, design, responsiveness, and coding best practices**.
+- SQL introduction and semantic
 
 ---
 
