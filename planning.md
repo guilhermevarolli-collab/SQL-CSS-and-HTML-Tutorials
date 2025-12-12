@@ -39,7 +39,7 @@ The two last itens can change, like putting the video first and then the images 
 - After that, the video and the quiz to finish all the website and summarize the _SQL_ topic (**Dimensions = 60%pxl wight and 40% height/Place = Middle center almost at the very bottom of the page**).[30 min]
 
 
-### **Tag Explanations** (4+ examples):  
+### **Tag Explanations**:  
    - `<header>`: Defines the introductory content or navigational links.  
    - `<nav>`: Contains the main site navigation links.  
    - `<section>`: Groups related content logically.  
