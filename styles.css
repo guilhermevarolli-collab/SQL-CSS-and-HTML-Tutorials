@@ -177,6 +177,10 @@ input[type="submit"]:hover {
   background-color: #1d4ed8;
 }
 
+label[for="female"] {
+    margin-bottom: -0.8rem; /* aproxima o botão */
+}
+
 
 a {
   color: #2563eb;
@@ -225,9 +229,6 @@ footer {
 }
 
 
-/* =========================================================
-   ALINHAMENTO DAS IMAGENS + TEXTO (SEM FLEXBOX)
-   ========================================================= */
 
 .html-section {
     text-align: center;
