@@ -147,9 +147,9 @@ Most of the imagens, videos and quizes were not created by myself, down here are
 
 ### Tutorials:
 - All tutorials are from w3schools, here are the links:
-https://www.w3schools.com/sql/sql_quiz.asp
-https://www.w3schools.com/css/css_quiz.asp
-https://www.w3schools.com/html/html_quiz.asp
+https://www.w3schools.com/sql/sql_quiz.asp  
+https://www.w3schools.com/css/css_quiz.asp  
+https://www.w3schools.com/html/html_quiz.asp  
 
 
 
