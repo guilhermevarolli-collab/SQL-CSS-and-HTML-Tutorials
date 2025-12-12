@@ -1,6 +1,6 @@
 # HTML & CSS Personal Website
 
-## 📌 Overview
+## Overview
 
 This project is a personal website built entirely with **HTML5** and **CSS3**, featuring explanations, practical examples, and visual demonstrations of the two foundational pillars of web development.
 
@@ -13,7 +13,7 @@ The primary goal is to showcase my practical knowledge and demonstrate proficien
 
 ---
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This website serves as a small educational portfolio, highlighting:
 
@@ -27,7 +27,7 @@ It also served as a practice in **planning, design, responsiveness, and coding b
 
 ---
 
-## 📝 Planning & Documentation
+## Planning & Documentation
 
 Before starting the implementation, the project went through a detailed planning phase:
 
@@ -41,13 +41,6 @@ Before starting the implementation, the project went through a detailed planning
    - **HTML** has evolved from simple text markup to a semantic and structured language.  
    - **CSS** has grown from basic inline styles to modern layouts using **Flexbox**, **Grid**, and **media queries** for responsiveness.  
 
-4. **Tag Explanations** (4+ examples):  
-   - `<header>`: Defines the introductory content or navigational links.  
-   - `<nav>`: Contains the main site navigation links.  
-   - `<section>`: Groups related content logically.  
-   - `<table>`: Organizes tabular data clearly.  
-   - `<form>`: Collects user input.  
-   - `<article>`: Represents a self-contained piece of content.
 
 5. **Design Considerations**  
    - Color scheme and typography consistency  
@@ -57,7 +50,7 @@ Before starting the implementation, the project went through a detailed planning
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 During the project, I practiced and reinforced:
 
@@ -73,9 +66,9 @@ During the project, I practiced and reinforced:
 
 ---
 
-## 📄 Website Pages
+## Website Pages
 
-### 🏠 Home Page
+### Home Page
 
 - Introductory text explaining HTML & CSS
 - Comparative images for better understanding
@@ -83,7 +76,7 @@ During the project, I practiced and reinforced:
 - Visual and textual examples
 - Navigation links to other pages
 
-### 📘 HTML Page
+### HTML Page
 
 - Purpose of HTML
 - Document structure explanation
@@ -91,7 +84,7 @@ During the project, I practiced and reinforced:
 - Table of elements
 - Images and highlighted content blocks
 
-### 🎨 CSS Page
+### CSS Page
 
 - Purpose and importance of CSS
 - Before-and-after visual examples
@@ -99,7 +92,7 @@ During the project, I practiced and reinforced:
 - Demonstration of applied styles
 - List of modern CSS advantages
 
-### 📬 Form Page
+### Form Page
 
 - Simple educational form
 - Text input fields
@@ -109,7 +102,7 @@ During the project, I practiced and reinforced:
 
 ---
 
-## ✨ Special Features
+## Special Features
 
 - Styled links with pseudo-classes (`:hover`, `:active`)
 - Buttons with hover effects
@@ -119,12 +112,12 @@ During the project, I practiced and reinforced:
 
 ---
 
-## 🖥 How to Access and Use the Website
+## How to Access and Use the Website
 
-### ✔ Online
+###  Online
 - [Insert hosted site link here]
 
-### ✔ Offline (via GitHub)
+###  Offline (via GitHub)
 1. Access the GitHub repository
 2. Click **Code → Download ZIP**
 3. Extract the ZIP file
@@ -133,7 +126,7 @@ During the project, I practiced and reinforced:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **HTML5**  
 - **CSS3**  
@@ -143,7 +136,7 @@ During the project, I practiced and reinforced:
 
 ---
 
-## 📎 Credits & References
+## Credits & References
 
 - Reference images and icons  
 - Educational websites and tutorials  
