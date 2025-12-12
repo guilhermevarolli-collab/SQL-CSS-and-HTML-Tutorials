@@ -141,8 +141,6 @@ caption {
 }
 
 
-
-
 form {
   display: flex;
   flex-direction: column;
@@ -179,10 +177,8 @@ input[type="submit"]:hover {
 
 
 input[type="submit"] {
-    margin-top: -0.5rem;
+    order: 99; 
 }
-
-
 
 a {
   color: #2563eb;
