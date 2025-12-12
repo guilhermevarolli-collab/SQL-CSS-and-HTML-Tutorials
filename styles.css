@@ -177,9 +177,11 @@ input[type="submit"]:hover {
   background-color: #1d4ed8;
 }
 
-label[for="female"] {
-    margin-bottom: -0.8rem; /* aproxima o botão */
+
+input[type="submit"] {
+    margin-top: -0.5rem;
 }
+
 
 
 a {
