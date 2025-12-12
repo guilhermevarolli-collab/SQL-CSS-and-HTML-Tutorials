@@ -125,7 +125,7 @@ During the project, I practiced:
 
 ## Credits & References
 
-Most of the imagens and videos are not created by myself, down here are every single thing that are in the website that I do not created:
+Most of the imagens, videos and quizes were not created by myself, down here are every single thing that are in the website that I do not created:
 
 ### TEXT:
 - https://en.wikipedia.org/wiki/HTML (Wikipedia = all text used in the HTML page)
