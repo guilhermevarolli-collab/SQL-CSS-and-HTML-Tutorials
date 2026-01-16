@@ -152,7 +152,8 @@ https://www.w3schools.com/css/css_quiz.asp
 https://www.w3schools.com/html/html_quiz.asp  
 
 
-# Link to the github wabpage
+# Link to the github wabpage and for the live website
 https://github.com/guilhermevarolli-collab/SQL-CSS-and-HTML-Tutorials
+https://guilhermevarolli-collab.github.io/SQL-CSS-and-HTML-Tutorials/index.html
 
 
